@@ -1,4 +1,3 @@
-
 // Seleção de elementos--------------
 const formToDo = document.querySelector("#form-todo");
 const todoInput = document.querySelector("#todo-input");
@@ -7,6 +6,8 @@ const editForm = document.querySelector("#edit-form-container");
 const editInput = document.querySelector("#edit-input");
 const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 const filterBtn = document.querySelector("#filter-select");
+const searchInput = document.querySelector("#search-input");
+const removeSearchBtn = document.querySelector("#btn-delete");
 
 //vou usar pra esconder
 const formAdd = document.querySelector("#form-add");
@@ -114,6 +115,24 @@ const filterTodos = (filterValue) => {
 };
 
 
+// Função de pesquisa
+const getSearchedTodos = (search) => {
+    const allToDos = document.querySelectorAll(".todo-card");
+  
+    allToDos.forEach((toDo) => {
+      const todoTitle = toDo.querySelector("h3").innerText.toLowerCase();
+  
+      toDo.style.display = "flex";
+  
+      console.log(todoTitle);
+  
+      if (!todoTitle.includes(search)) {
+        toDo.style.display = "none";
+      }
+    });
+  };
+
+
 // Eventos---------------------------
 // evento pra adicionar tarefa
 formToDo.addEventListener("submit", (e) => {
@@ -132,7 +151,7 @@ document.addEventListener("click", (e) => {
     const targetEl =  e.target
     // pega o pai mais próximo desse elemento
     const parentEl = e.target.closest("div")
-    const parentEl2 = parentEl.parentNode
+    const parentEl2 = parentEl ? parentEl.parentNode : null;
     let toDoTitle;
 
     if (parentEl2 && parentEl2.querySelector("h3")) {
@@ -183,3 +202,19 @@ filterBtn.addEventListener("change", (e) => {
 
     filterTodos(filterValue);
 })
+
+// evento de pesquisa
+searchInput.addEventListener("keyup", (e) => {
+    const search = e.target.value;
+  
+    getSearchedTodos(search);
+  });
+
+
+// evento pra remover conteudo do search
+removeSearchBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    searchInput.value = "";
+    filterTodos("all")
+    console.log("deu bom")
+});
