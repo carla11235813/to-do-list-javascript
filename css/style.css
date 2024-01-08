@@ -97,22 +97,33 @@ h2 {
 
 #toolbar {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 #search {
-    margin-right: 1rem;
-}
-
-#search input {
-    width: 100%;
+    width: 60%;
 }
 
 
 #filter {
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
+
+#btn-delete {
+    padding: 0;
+    border: 0;
+    font-size: 25px;
+}
+
+#btn-delete:hover {
+    background-color: transparent;
+    color: #744FC6;
+}
+
 
 /* edit form */
 
