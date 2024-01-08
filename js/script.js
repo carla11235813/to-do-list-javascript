@@ -126,7 +126,7 @@ const getSearchedTodos = (search) => {
   
       console.log(todoTitle);
   
-      if (!todoTitle.includes(search)) {
+      if (!todoTitle.includes(search.toLowerCase())) {
         toDo.style.display = "none";
       }
     });
