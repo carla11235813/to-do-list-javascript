@@ -209,12 +209,3 @@ searchInput.addEventListener("keyup", (e) => {
   
     getSearchedTodos(search);
   });
-
-
-// evento pra remover conteudo do search
-removeSearchBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    searchInput.value = "";
-    filterTodos("all")
-    console.log("deu bom")
-});
