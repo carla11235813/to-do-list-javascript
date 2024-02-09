@@ -5,12 +5,10 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades](#funcionalidades)
 * [Aplicação](#aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Pessoa Desenvolvedora do Projeto](#pessoa-desenvolvedora-do-projeto)
 * [Licença](#licença)
-* [Conclusão](#conclusão)
 
 ## Descrição do Projeto
 
@@ -42,3 +40,9 @@ Uma aplicação interativa que permite ao usuário gerenciar suas tarefas de for
 
 ## Acesso ao Projeto
 você pode acessar o projeto através do link: https://carla11235813.github.io/to-do-list-javascript/
+
+## Pessoa Desenvolvedora do Projeto
+| [<img loading="lazy" src="https://github.com/carla11235813/to-do-list-javascript/assets/111895486/6c5f1df3-e69b-45cd-91c8-90fa42a4c12d" width=115><br><sub>Carla Oliveira</sub>](https://github.com/carla11235813) |
+| :---: |
+
+## Licença
