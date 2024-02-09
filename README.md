@@ -46,3 +46,5 @@ você pode acessar o projeto através do link: https://carla11235813.github.io/t
 | :---: |
 
 ## Licença
+
+The [MIT License](https://github.com/carla11235813/to-do-list-javascript/blob/main/LICENSE) (MIT)
