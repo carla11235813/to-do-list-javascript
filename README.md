@@ -1,5 +1,7 @@
 # To Do - organizador de tarefas 
 
+## Tópicos
+
 ## Descrição do projeto
 
 Uma aplicação interativa que permite ao usuário gerenciar suas tarefas de forma eficaz, fornecendo uma interface intuitiva para adicionar, remover e atualizar tarefas, juntamente com funcionalidades adicionais para melhorar a experiência do usuário.
