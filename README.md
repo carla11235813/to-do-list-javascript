@@ -28,7 +28,9 @@ Uma aplicação interativa que permite ao usuário gerenciar suas tarefas de for
 :heavy_check_mark: `Funcionalidade 6`: Filtrar tarefas em "todas", "feitas" ou "a fazer";
 
 ## Aplicação
-
+<p align="center">
+  <img src="https://github.com/carla11235813/to-do-list-javascript/assets/111895486/a1fe70ae-d0ca-49b6-9714-c02d2c6d1cdb" alt="gif demostrando aplicação do projeto" style="width: 300px">
+</p>
 
 ## Tecnologias utilizadas
 ![Static Badge](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge) <br>
